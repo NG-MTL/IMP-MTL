@@ -1,0 +1,6 @@
+function norm_data = normalize(bla)
+
+
+norm_data = (bla - (min(min(bla)))) / (max(bla(:)) - min(bla(:)));
+
+end
